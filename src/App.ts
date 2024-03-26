@@ -13,7 +13,7 @@ class HttpWebAppServices {
         this.Init();
     }
     public Init(): void {
-        this.app.use("/", TestAPI);
+        this.app.use("/test", TestAPI);
         // set path route 
 
 
